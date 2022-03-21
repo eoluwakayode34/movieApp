@@ -75,7 +75,8 @@ function App() {
                incredible.
                           </Heading>
             </Container>
-      <Image  pos='absolute' top='0' left='0' h='100%' src={Background} />
+      <Image  pos='absolute' top='0' left='0' h={['100%' ]}  w={['100%']}  objectFit='cover'
+ src={Background} />
 
     </Flex>
 
